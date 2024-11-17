@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from retrying import retry
 
 logging.basicConfig(filename='selenium.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+print("Hello world!!")
 class SeleniumLib:
     def __init__(self, browser):
         self.browser = browser
